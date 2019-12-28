@@ -10,7 +10,8 @@ void main(){
       ),
       body: Center(
         child: Image(
-          image: NetworkImage("https://www.w3schools.com/w3css/img_lights.jpg"),
+          image: AssetImage("images/central_viva.jpg")
+          //image: NetworkImage("https://www.w3schools.com/w3css/img_lights.jpg"),
         ),
       ),
     ),
